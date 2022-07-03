@@ -12,6 +12,7 @@ import javax.persistence.*;
 @Table(name = "post")
 @Data
 @Builder
+
 @NoArgsConstructor
 @AllArgsConstructor
 public class PostEntity {
